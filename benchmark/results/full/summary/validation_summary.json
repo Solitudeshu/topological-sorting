@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "workloads": 280,
+  "static_workloads": 145,
+  "dynamic_workloads": 135,
+  "workload_result_checks": 81290,
+  "distinct_update_attempts": 27000,
+  "timing_rows": 6950,
+  "instrumented_rows": 81290,
+  "measured_case_thresholds_passed": true
+}

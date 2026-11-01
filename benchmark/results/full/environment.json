@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-11-01T13:10:47.285962+07:00",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13500H",
+  "logical_cpus": 16,
+  "ram_bytes": 16786550784,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "compiler": "g++.EXE (Rev3, Built by MSYS2 project) 14.1.0\nCopyright (C) 2024 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "build_flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic"
+  ],
+  "git_source_commit": "8eede3714ecd1c4fa692cade6b42e674f47da0fe",
+  "executable_sha256": "ac566cc0dd1c12f6b0a198606071556b4d9cc1775f305cf8690dc5044c66c952",
+  "source_sha256": {
+    "benchmark\\include\\topo.hpp": "c19ccbb7ecb79b07f565790315910f4ab02c6b9ab86aa80284e91729745dbf87",
+    "benchmark\\src\\runner.cpp": "40c7639d6d02db02c588de19b3f237aed8cb61dbdff655dfc64dcf3005c946f3",
+    "benchmark\\tests\\test_topo.cpp": "2e32e3ec4617632a7f270a449268fe8b63964d6e688f29b9a8edea86ccd86bf3",
+    "benchmark\\scripts\\build.py": "1891faa8fee635dfe49334e8bbe07ac69f84a7ef552f97752a27f295c8fcd515",
+    "benchmark\\scripts\\plot_results.py": "e08dcb0e4602662a2254ff13f0dbd3126d88f7ce45ebf4cc5f0804ab4d8d94ae",
+    "benchmark\\scripts\\run_benchmarks.py": "be4cb3b25a2a32d94431b45991503959789736202a353b917774ebc94cb50994",
+    "benchmark\\scripts\\summarize.py": "c0313af76ed5d5aa6e8e4ddf0370c4c6de52bbef06ef45072aaf2fb1581919aa",
+    "benchmark\\scripts\\verify_networkx.py": "f59a2633516fb76b0cb8fa120c476e3af7580c842e3f9937ce450cfc59e15b42",
+    "benchmark\\scripts\\workloads.py": "563c26fe1f7e724009b05b336ff99d4ee0a653a104fea81f2085f80df18f94e4"
+  },
+  "packages": {
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.0",
+    "networkx": "3.4.2"
+  },
+  "profile": "full",
+  "repeats": 10,
+  "warmups": 3,
+  "threads": 1,
+  "timer": "std::chrono::steady_clock",
+  "static_target_batch_ns": 3000000,
+  "algorithm_order": "seeded shuffle (7301) each repetition",
+  "memory": "capacity-based vector payload, instrumented separately; not process peak RAM",
+  "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)"
+}

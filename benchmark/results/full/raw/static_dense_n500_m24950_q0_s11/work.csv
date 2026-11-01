@@ -1,0 +1,3 @@
+algorithm,update_id,u,v,status,vertices,edge_checks,window_len,order_writes,pos_writes,changed_positions,recomputations,max_frontier,aux_payload_peak_bytes,graph_payload_bytes
+kahn_fifo,-1,-1,-1,accepted,500,49900,0,500,0,0,0,9,6000,155380
+dfs_iterative,-1,-1,-1,accepted,500,24950,0,1000,0,0,0,12,2756,155380

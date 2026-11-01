@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="872.39952pt" height="332.39952pt" viewBox="0 0 872.39952 332.39952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-01T13:18:57.369473</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 332.39952 
+L 872.39952 332.39952 
+L 872.39952 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 65.04625 307.151395 
+L 434.844604 307.151395 
+L 434.844604 24.325125 
+L 65.04625 24.325125 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="me2ace3cd81" d="M 0 0 
+L 0 3.5 
+" style="stroke: #505050; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#me2ace3cd81" x="107.496138" y="307.151395" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: middle; fill: #505050" x="107.496138" y="322.47702" transform="rotate(-0 107.496138 322.47702)">Cạnh xuôi</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#me2ace3cd81" x="178.720782" y="307.151395" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: middle; fill: #505050" x="178.720782" y="322.611082" transform="rotate(-0 178.720782 322.611082)">Vùng nhỏ</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#me2ace3cd81" x="249.945427" y="307.151395" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: middle; fill: #505050" x="249.945427" y="322.454676" transform="rotate(-0 249.945427 322.454676)">Vùng lớn</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#me2ace3cd81" x="321.170071" y="307.151395" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: middle; fill: #505050" x="321.170071" y="322.454676" transform="rotate(-0 321.170071 322.454676)">Chu trình</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#me2ace3cd81" x="392.394716" y="307.151395" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: middle; fill: #505050" x="392.394716" y="322.611082" transform="rotate(-0 392.394716 322.611082)">W lớn, F nhỏ</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <path d="M 65.04625 307.151395 
+L 434.844604 307.151395 
+" clip-path="url(#p5531d16633)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <defs>
+       <path id="m7ce6e8eb9c" d="M 0 0 
+L -3.5 0 
+" style="stroke: #505050; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="65.04625" y="307.151395" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="58.04625" y="311.155545" transform="rotate(-0 58.04625 311.155545)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8">
+      <path d="M 65.04625 253.387789 
+L 434.844604 253.387789 
+" clip-path="url(#p5531d16633)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="65.04625" y="253.387789" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="58.04625" y="257.39194" transform="rotate(-0 58.04625 257.39194)">20000</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10">
+      <path d="M 65.04625 199.624184 
+L 434.844604 199.624184 
+" clip-path="url(#p5531d16633)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="65.04625" y="199.624184" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="58.04625" y="203.628334" transform="rotate(-0 58.04625 203.628334)">40000</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12">
+      <path d="M 65.04625 145.860578 
+L 434.844604 145.860578 
+" clip-path="url(#p5531d16633)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="65.04625" y="145.860578" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="58.04625" y="149.864729" transform="rotate(-0 58.04625 149.864729)">60000</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_14">
+      <path d="M 65.04625 92.096972 
+L 434.844604 92.096972 
+" clip-path="url(#p5531d16633)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="65.04625" y="92.096972" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="58.04625" y="96.101123" transform="rotate(-0 58.04625 96.101123)">80000</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_16">
+      <path d="M 65.04625 38.333367 
+L 434.844604 38.333367 
+" clip-path="url(#p5531d16633)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="65.04625" y="38.333367" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="58.04625" y="42.337517" transform="rotate(-0 58.04625 42.337517)">100000</text>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: middle; fill: #303030" x="15.879688" y="165.73826" transform="rotate(-90 15.879688 165.73826)">Số phần tử danh sách kề được xét / yêu cầu</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 81.855266 307.151395 
+L 98.949181 307.151395 
+L 98.949181 37.793043 
+L 81.855266 37.793043 
+z
+" clip-path="url(#p5531d16633)" style="fill: #536a7b"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 153.07991 307.151395 
+L 170.173825 307.151395 
+L 170.173825 37.793043 
+L 153.07991 37.793043 
+z
+" clip-path="url(#p5531d16633)" style="fill: #536a7b"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 224.304555 307.151395 
+L 241.39847 307.151395 
+L 241.39847 37.793043 
+L 224.304555 37.793043 
+z
+" clip-path="url(#p5531d16633)" style="fill: #536a7b"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 295.529199 307.151395 
+L 312.623114 307.151395 
+L 312.623114 150.549289 
+L 295.529199 150.549289 
+z
+" clip-path="url(#p5531d16633)" style="fill: #536a7b"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 366.753844 307.151395 
+L 383.847758 307.151395 
+L 383.847758 306.611071 
+L 366.753844 306.611071 
+z
+" clip-path="url(#p5531d16633)" style="fill: #536a7b"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 98.949181 307.151395 
+L 116.043095 307.151395 
+L 116.043095 307.151395 
+L 98.949181 307.151395 
+z
+" clip-path="url(#p5531d16633)" style="fill: #a4acb3"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 170.173825 307.151395 
+L 187.26774 307.151395 
+L 187.26774 169.758286 
+L 170.173825 169.758286 
+z
+" clip-path="url(#p5531d16633)" style="fill: #a4acb3"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 241.39847 307.151395 
+L 258.492384 307.151395 
+L 258.492384 305.807278 
+L 241.39847 305.807278 
+z
+" clip-path="url(#p5531d16633)" style="fill: #a4acb3"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 312.623114 307.151395 
+L 329.717029 307.151395 
+L 329.717029 150.549289 
+L 312.623114 150.549289 
+z
+" clip-path="url(#p5531d16633)" style="fill: #a4acb3"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 383.847758 307.151395 
+L 400.941673 307.151395 
+L 400.941673 306.893894 
+L 383.847758 306.893894 
+z
+" clip-path="url(#p5531d16633)" style="fill: #a4acb3"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 116.043095 307.151395 
+L 133.13701 307.151395 
+L 133.13701 307.151395 
+L 116.043095 307.151395 
+z
+" clip-path="url(#p5531d16633)" style="fill: #b77c54"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 187.26774 307.151395 
+L 204.361654 307.151395 
+L 204.361654 307.055776 
+L 187.26774 307.055776 
+z
+" clip-path="url(#p5531d16633)" style="fill: #b77c54"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 258.492384 307.151395 
+L 275.586299 307.151395 
+L 275.586299 172.742381 
+L 258.492384 172.742381 
+z
+" clip-path="url(#p5531d16633)" style="fill: #b77c54"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 329.717029 307.151395 
+L 346.810943 307.151395 
+L 346.810943 285.484689 
+L 329.717029 285.484689 
+z
+" clip-path="url(#p5531d16633)" style="fill: #b77c54"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 400.941673 307.151395 
+L 418.035588 307.151395 
+L 418.035588 307.151395 
+L 400.941673 307.151395 
+z
+" clip-path="url(#p5531d16633)" style="fill: #b77c54"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 65.04625 307.151395 
+L 65.04625 24.325125 
+" style="fill: none; stroke: #888888; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 65.04625 307.151395 
+L 434.844604 307.151395 
+" style="fill: none; stroke: #888888; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 13.2px; font-family: 'Segoe UI'; text-anchor: middle; fill: #303030" x="249.945427" y="18.325125" transform="rotate(-0 249.945427 18.325125)">(a) Công việc duyệt cạnh</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_20">
+     <path d="M 323.289604 39.218719 
+L 341.289604 39.218719 
+L 341.289604 32.918719 
+L 323.289604 32.918719 
+z
+" style="fill: #536a7b"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #303030" x="348.489604" y="39.218719" transform="rotate(-0 348.489604 39.218719)">Kahn tính lại</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 323.289604 53.198074 
+L 341.289604 53.198074 
+L 341.289604 46.898074 
+L 323.289604 46.898074 
+z
+" style="fill: #a4acb3"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #303030" x="348.489604" y="53.198074" transform="rotate(-0 348.489604 53.198074)">Kahn kiểm tra trước</text>
+    </g>
+    <g id="patch_22">
+     <path d="M 323.289604 66.403992 
+L 341.289604 66.403992 
+L 341.289604 60.103992 
+L 323.289604 60.103992 
+z
+" style="fill: #b77c54"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #303030" x="348.489604" y="66.403992" transform="rotate(-0 348.489604 66.403992)">Cập nhật cục bộ</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_23">
+    <path d="M 495.401166 307.151395 
+L 865.19952 307.151395 
+L 865.19952 24.325125 
+L 495.401166 24.325125 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_6">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#me2ace3cd81" x="551.000219" y="307.151395" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: middle; fill: #505050" x="551.000219" y="322.611082" transform="rotate(-0 551.000219 322.611082)">Vùng nhỏ</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#me2ace3cd81" x="680.300343" y="307.151395" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: middle; fill: #505050" x="680.300343" y="322.454676" transform="rotate(-0 680.300343 322.454676)">Vùng lớn</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#me2ace3cd81" x="809.600467" y="307.151395" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: middle; fill: #505050" x="809.600467" y="322.611082" transform="rotate(-0 809.600467 322.611082)">W lớn, F nhỏ</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_7">
+     <g id="line2d_21">
+      <path d="M 495.401166 307.151395 
+L 865.19952 307.151395 
+" clip-path="url(#pd55f549944)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="495.401166" y="307.151395" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="488.401166" y="311.155545" transform="rotate(-0 488.401166 311.155545)">0</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_23">
+      <path d="M 495.401166 252.185911 
+L 865.19952 252.185911 
+" clip-path="url(#pd55f549944)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="495.401166" y="252.185911" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="488.401166" y="256.190062" transform="rotate(-0 488.401166 256.190062)">2000</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_25">
+      <path d="M 495.401166 197.220428 
+L 865.19952 197.220428 
+" clip-path="url(#pd55f549944)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="495.401166" y="197.220428" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="488.401166" y="201.224578" transform="rotate(-0 488.401166 201.224578)">4000</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_27">
+      <path d="M 495.401166 142.254944 
+L 865.19952 142.254944 
+" clip-path="url(#pd55f549944)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="495.401166" y="142.254944" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="488.401166" y="146.259095" transform="rotate(-0 488.401166 146.259095)">6000</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_29">
+      <path d="M 495.401166 87.289461 
+L 865.19952 87.289461 
+" clip-path="url(#pd55f549944)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="495.401166" y="87.289461" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="488.401166" y="91.293611" transform="rotate(-0 488.401166 91.293611)">8000</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_31">
+      <path d="M 495.401166 32.323977 
+L 865.19952 32.323977 
+" clip-path="url(#pd55f549944)" style="fill: none; stroke: #e7e7e7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m7ce6e8eb9c" x="495.401166" y="32.323977" style="fill: #505050; stroke: #505050; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: end; fill: #505050" x="488.401166" y="36.328127" transform="rotate(-0 488.401166 36.328127)">10000</text>
+     </g>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 11px; font-family: 'Segoe UI'; text-anchor: middle; fill: #303030" x="452.164291" y="165.73826" transform="rotate(-90 452.164291 165.73826)">Số lượng trung bình / yêu cầu</text>
+    </g>
+   </g>
+   <g id="patch_24">
+    <path d="M 512.210182 307.151395 
+L 551.000219 307.151395 
+L 551.000219 306.959016 
+L 512.210182 306.959016 
+z
+" clip-path="url(#pd55f549944)" style="fill: #536a7b"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 641.510306 307.151395 
+L 680.300343 307.151395 
+L 680.300343 142.254944 
+L 641.510306 142.254944 
+z
+" clip-path="url(#pd55f549944)" style="fill: #536a7b"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 770.81043 307.151395 
+L 809.600467 307.151395 
+L 809.600467 307.123912 
+L 770.81043 307.123912 
+z
+" clip-path="url(#pd55f549944)" style="fill: #536a7b"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 551.000219 307.151395 
+L 589.790257 307.151395 
+L 589.790257 306.931533 
+L 551.000219 306.931533 
+z
+" clip-path="url(#pd55f549944)" style="fill: #b77c54"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 680.300343 307.151395 
+L 719.09038 307.151395 
+L 719.09038 142.227461 
+L 680.300343 142.227461 
+z
+" clip-path="url(#pd55f549944)" style="fill: #b77c54"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 809.600467 307.151395 
+L 848.390504 307.151395 
+L 848.390504 37.793043 
+L 809.600467 37.793043 
+z
+" clip-path="url(#pd55f549944)" style="fill: #b77c54"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 495.401166 307.151395 
+L 495.401166 24.325125 
+" style="fill: none; stroke: #888888; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 495.401166 307.151395 
+L 865.19952 307.151395 
+" style="fill: none; stroke: #888888; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: middle; fill: #303030" x="531.605201" y="302.064973" transform="rotate(-0 531.605201 302.064973)">7</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: middle; fill: #303030" x="660.905325" y="137.360901" transform="rotate(-0 660.905325 137.360901)">6,000</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: middle; fill: #303030" x="790.205448" y="302.229869" transform="rotate(-0 790.205448 302.229869)">1</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: middle; fill: #303030" x="570.395238" y="302.03749" transform="rotate(-0 570.395238 302.03749)">8</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: middle; fill: #303030" x="699.695362" y="137.333418" transform="rotate(-0 699.695362 137.333418)">6,001</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: middle; fill: #303030" x="828.995485" y="32.899" transform="rotate(-0 828.995485 32.899)">9,801</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 13.2px; font-family: 'Segoe UI'; text-anchor: middle; fill: #303030" x="680.300343" y="18.325125" transform="rotate(-0 680.300343 18.325125)">(b) Tìm kiếm và ghi cửa sổ của cập nhật cục bộ</text>
+   </g>
+   <g id="legend_2">
+    <g id="patch_32">
+     <path d="M 503.501166 39.526687 
+L 521.501166 39.526687 
+L 521.501166 33.226687 
+L 503.501166 33.226687 
+z
+" style="fill: #536a7b"/>
+    </g>
+    <g id="text_34">
+     <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #303030" x="528.701166" y="39.526687" transform="rotate(-0 528.701166 39.526687)">Đỉnh tìm kiếm</text>
+    </g>
+    <g id="patch_33">
+     <path d="M 503.501166 52.714324 
+L 521.501166 52.714324 
+L 521.501166 46.414324 
+L 503.501166 46.414324 
+z
+" style="fill: #b77c54"/>
+    </g>
+    <g id="text_35">
+     <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #303030" x="528.701166" y="52.714324" transform="rotate(-0 528.701166 52.714324)">Vị trí được ghi</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5531d16633">
+   <rect x="65.04625" y="24.325125" width="369.798354" height="282.82627"/>
+  </clipPath>
+  <clipPath id="pd55f549944">
+   <rect x="495.401166" y="24.325125" width="369.798354" height="282.82627"/>
+  </clipPath>
+ </defs>
+</svg>

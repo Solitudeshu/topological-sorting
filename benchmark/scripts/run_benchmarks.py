@@ -9,8 +9,7 @@ import platform
 import shutil
 import subprocess
 import sys
-from datetime import datetime
-from zoneinfo import ZoneInfo
+from datetime import datetime,timezone,timedelta
 from build import ROOT,build
 from workloads import specifications,save
 
@@ -30,7 +29,7 @@ def environment(exe,profile,repeats,warmups):
     sources={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest()
              for folder in ['benchmark/include','benchmark/src','benchmark/tests','benchmark/scripts']
              for p in sorted((ROOT/folder).glob('*')) if p.suffix in ['.hpp','.cpp','.py']}
-    return dict(timestamp=datetime.now(ZoneInfo('Asia/Ho_Chi_Minh')).isoformat(),timezone='Asia/Ho_Chi_Minh',
+    return dict(timestamp=datetime.now(timezone(timedelta(hours=7))).isoformat(),timezone='Asia/Ho_Chi_Minh',
                 cpu=cpu,logical_cpus=os.cpu_count(),ram_bytes=ram,platform=platform.platform(),
                 python=sys.version,compiler=command_output([shutil.which('g++') or 'clang++','--version']),
                 build_flags=['-std=c++17','-O3','-DNDEBUG','-Wall','-Wextra','-Wpedantic'],

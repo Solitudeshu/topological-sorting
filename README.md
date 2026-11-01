@@ -33,6 +33,14 @@ benchmark/build/topo_tests.exe benchmark/tests/validation_unit.json
 
 Để chạy lại toàn bộ phép đo, thay `quick` bằng `full` trong ba lệnh cuối. Chạy tuần tự để tác vụ khác không gây tải CPU cạnh tranh trong lượt đo chính thức. Các lệnh sẽ ghi lại kết quả của profile tương ứng; muốn giữ một lần đo cũ, sao chép thư mục kết quả sang tên khác trước khi chạy. Không dùng số liệu của hai máy để tạo một phép so sánh cặp.
 
+Để đo lại đúng đầu vào đã lưu và giữ nguyên số liệu công bố, dùng:
+
+```powershell
+.venv/Scripts/python.exe benchmark/scripts/replay.py --workload dynamic_local_small_n10000_m50000_q200_s11
+```
+
+Đổi tên workload theo `manifest.json`, hoặc dùng `--workload all`. Kết quả mới nằm ở `benchmark/results/replay/`. Kiểm tra toàn bộ file lưu trữ và nguồn C++ của bản công bố bằng `python benchmark/scripts/audit_results.py --profile full`. Sinh lại nội dung báo cáo từ CSV bằng `python benchmark/scripts/make_report.py`; script này dùng cấu hình full đã công bố.
+
 Trên Linux/macOS, dùng `.venv/bin/python` và executable không có đuôi `.exe`. `build.py` tự nhận `g++` hoặc `clang++`. Có thể dùng CMake thay cho build script:
 
 ```text

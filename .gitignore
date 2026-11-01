@@ -4,6 +4,8 @@ __pycache__/
 benchmark/build/
 benchmark/_cache/
 benchmark/results/quick/
+benchmark/results/replay/
+benchmark/data/quick/
 *.exe
 *.o
 *.obj

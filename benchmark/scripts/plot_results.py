@@ -72,7 +72,8 @@ def plot(profile):
         err=np.array([[r['median_ns']/1000-r['q25_seed_ns']/1000 for r in rr],[r['q75_seed_ns']/1000-r['median_ns']/1000 for r in rr]])
         ax.bar(x+(j-1)*width,med,width,label=NAMES[alg],color=COLORS[alg],yerr=err,capsize=2,error_kw={'linewidth':.8})
     ax.set(xticks=x,xticklabels=LABELS,ylabel='Thời gian trung bình mỗi yêu cầu (µs, trục log)',yscale='log',title=f'n = {int(n):,}; m₀ = 5n, riêng W lớn F nhỏ có m₀ = 0')
-    ax.grid(axis='y',color='#E7E7E7',linewidth=.7);ax.set_axisbelow(True);ax.legend(ncol=3,loc='upper left')
+    ax.grid(axis='y',color='#E7E7E7',linewidth=.7);ax.set_axisbelow(True)
+    fig.legend(loc='outside upper center',ncol=3,fontsize=10)
     save(fig,dest,'Hinh_7_2_Thoi_gian_cap_nhat')
     fig,axs=plt.subplots(1,2,figsize=(12,4.5),layout='constrained')
     for j,alg in enumerate(algorithms):
@@ -92,8 +93,10 @@ def plot(profile):
         for family,color,label in [('local_small','#536A7B','Vùng nhỏ'),('local_large','#B77C54','Vùng lớn'),('window_only','#727A60','W lớn, F nhỏ')]:
             items=sorted([r for r in speed if r['family']==family and r['baseline']=='kahn_recompute' and r['m0']==(0 if family=='window_only' else 5*r['n'])],key=lambda r:r['n'])
             axs[0].plot([r['n'] for r in items],[r['median_speedup'] for r in items],marker='o',color=color,label=label)
+            axs[0].fill_between([r['n'] for r in items],[r['q25'] for r in items],[r['q75'] for r in items],color=color,alpha=.12,linewidth=0)
         items=sorted([r for r in speed if r['family']=='local_large' and r['baseline']=='kahn_recompute' and r['n']==1000],key=lambda r:r['m0'])
         axs[1].plot([100*2*r['m0']/(1000*999) for r in items],[r['median_speedup'] for r in items],marker='o',color='#B77C54')
+        axs[1].fill_between([100*2*r['m0']/(1000*999) for r in items],[r['q25'] for r in items],[r['q75'] for r in items],color='#B77C54',alpha=.12,linewidth=0)
         axs[0].set(xlabel='Số đỉnh n (m₀ = 5n, trừ trường hợp ghi chú)',ylabel='Hệ số tăng tốc so với Kahn tính lại',title='(a) Ảnh hưởng của quy mô',yscale='log')
         axs[1].set(xlabel='Mật độ ban đầu (%)',ylabel='Hệ số tăng tốc so với Kahn tính lại',title='(b) Sửa vùng lớn, n = 1.000')
         for ax in axs:ax.axhline(1,color='#888888',linestyle='--',linewidth=1);ax.grid(axis='y',color='#E7E7E7',linewidth=.7);ax.set_axisbelow(True)
