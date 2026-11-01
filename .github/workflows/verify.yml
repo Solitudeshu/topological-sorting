@@ -1,0 +1,17 @@
+name: Verify algorithms and quick pipeline
+on: [push, pull_request]
+jobs:
+  correctness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r benchmark/requirements.txt
+      - run: python benchmark/scripts/build.py
+      - run: benchmark/build/topo_tests benchmark/tests/validation_unit.json
+      - run: python benchmark/scripts/verify_networkx.py
+      - run: python benchmark/scripts/run_benchmarks.py --profile quick --skip-build
+      - run: python benchmark/scripts/summarize.py --profile quick
+      - run: python benchmark/scripts/plot_results.py --profile quick

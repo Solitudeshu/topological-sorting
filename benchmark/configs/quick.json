@@ -1,0 +1,11 @@
+{
+  "seeds": [11],
+  "static_sizes": [200, 1000],
+  "dense_sizes": [200],
+  "dense_densities": [0.2],
+  "dynamic_sizes": [200, 1000],
+  "dynamic_q": 40,
+  "repeats": 3,
+  "warmups": 1,
+  "density_experiment": false
+}

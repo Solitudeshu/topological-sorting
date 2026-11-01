@@ -1,0 +1,1 @@
+{"passed":true,"static_result_checks":8198,"dynamic_transition_checks":352165,"invalid_vertex_checks":6,"exhaustive_graphs_n4":4096,"exhaustive_dags_n4":543,"random_seeds":100,"long_chain_n":100000}

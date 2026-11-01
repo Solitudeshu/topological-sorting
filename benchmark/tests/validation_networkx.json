@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "networkx_version": "3.4.2",
+  "cases": 31,
+  "transition_order_checks": 27018,
+  "decisions": {
+    "accepted": 6426,
+    "cycle": 14055,
+    "duplicate": 6537
+  }
+}
