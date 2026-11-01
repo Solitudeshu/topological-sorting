@@ -63,7 +63,7 @@ def plot(profile):
     axs[0].set(xlabel='Số đỉnh n (m = 5n)',ylabel='Thời gian mỗi lần (ms)',title='(a) Tăng quy mô DAG thưa',xscale='log',yscale='log')
     axs[1].set(xlabel='Mật độ DAG (%)',ylabel='Thời gian mỗi lần (ms)',title='(b) Thay đổi mật độ, n cố định')
     for ax in axs:ax.legend()
-    save(fig,dest,'Hinh_7_1_Topo_tinh')
+    save(fig,dest,'static_sort')
     algorithms=['kahn_recompute','kahn_guarded','incremental_rpo']
     chosen={(family,alg):one(rows,benchmark='dynamic',family=family,n=n,m0=0 if family=='window_only' else m,algorithm=alg) for family in CASES for alg in algorithms}
     fig,ax=plt.subplots(figsize=(11.8,4.8),layout='constrained');x=np.arange(len(CASES));width=.24
@@ -74,7 +74,7 @@ def plot(profile):
     ax.set(xticks=x,xticklabels=LABELS,ylabel='Thời gian trung bình mỗi yêu cầu (µs, trục log)',yscale='log',title=f'n = {int(n):,}; m₀ = 5n, riêng W lớn F nhỏ có m₀ = 0')
     ax.grid(axis='y',color='#E7E7E7',linewidth=.7);ax.set_axisbelow(True)
     fig.legend(loc='outside upper center',ncol=3,fontsize=10)
-    save(fig,dest,'Hinh_7_2_Thoi_gian_cap_nhat')
+    save(fig,dest,'dynamic_updates')
     fig,axs=plt.subplots(1,2,figsize=(12,4.5),layout='constrained')
     for j,alg in enumerate(algorithms):
         values=[chosen[(family,alg)]['edge_checks'] for family in CASES[:5]]
@@ -87,7 +87,7 @@ def plot(profile):
         axs[1].bar_label(bars,labels=[f'{v:,.0f}' for v in values],padding=3,fontsize=9)
     axs[1].set(xticks=np.arange(3),xticklabels=['Vùng nhỏ','Vùng lớn','W lớn, F nhỏ'],ylabel='Số lượng trung bình / yêu cầu',title='(b) Tìm kiếm và ghi cửa sổ của cập nhật cục bộ')
     for ax in axs:ax.grid(axis='y',color='#E7E7E7',linewidth=.7);ax.set_axisbelow(True);ax.legend(fontsize=9)
-    save(fig,dest,'Hinh_7_3_Luong_cong_viec')
+    save(fig,dest,'operation_counts')
     if profile=='full':
         fig,axs=plt.subplots(1,2,figsize=(11.6,4.2),layout='constrained')
         for family,color,label in [('local_small','#536A7B','Vùng nhỏ'),('local_large','#B77C54','Vùng lớn'),('window_only','#727A60','W lớn, F nhỏ')]:
@@ -100,7 +100,7 @@ def plot(profile):
         axs[0].set(xlabel='Số đỉnh n (m₀ = 5n, trừ trường hợp ghi chú)',ylabel='Hệ số tăng tốc so với Kahn tính lại',title='(a) Ảnh hưởng của quy mô',yscale='log')
         axs[1].set(xlabel='Mật độ ban đầu (%)',ylabel='Hệ số tăng tốc so với Kahn tính lại',title='(b) Sửa vùng lớn, n = 1.000')
         for ax in axs:ax.axhline(1,color='#888888',linestyle='--',linewidth=1);ax.grid(axis='y',color='#E7E7E7',linewidth=.7);ax.set_axisbelow(True)
-        axs[0].legend();save(fig,dest,'Hinh_7_4_Quy_mo_va_mat_do')
+        axs[0].legend();save(fig,dest,'scaling_density')
     print(f'Figures: {dest}')
 
 if __name__=='__main__':
