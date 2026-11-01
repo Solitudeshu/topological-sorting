@@ -10,3 +10,7 @@ benchmark/data/quick/
 *.o
 *.obj
 *.log
+
+# Local writing artifacts are not part of the benchmark.
+/report/
+~$*
