@@ -2,6 +2,8 @@
   "passed": true,
   "archived_inputs_verified": 280,
   "cpp_source_matches_measured_version": true,
+  "working_tree_cpp_matches_measured_version": false,
+  "measured_source_snapshots_verified": 3,
   "positive_timings": true,
   "summary_quantiles_valid": true
 }
