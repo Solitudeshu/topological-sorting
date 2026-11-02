@@ -8,10 +8,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python -m pip install -r benchmark/requirements.txt
+      - run: python -m pip install -r benchmark/requirements-dev.txt
+      - run: python -m black --check benchmark/scripts
+      - run: clang-format --dry-run --Werror benchmark/include/topo.hpp benchmark/src/runner.cpp benchmark/tests/test_topo.cpp
       - run: python benchmark/scripts/build.py
       - run: benchmark/build/topo_tests benchmark/tests/validation_unit.json
       - run: python benchmark/scripts/verify_networkx.py
       - run: python benchmark/scripts/run_benchmarks.py --profile quick --skip-build
       - run: python benchmark/scripts/summarize.py --profile quick
       - run: python benchmark/scripts/plot_results.py --profile quick
+      - run: python benchmark/scripts/audit_results.py --profile quick
+      - run: python benchmark/scripts/audit_results.py --profile full

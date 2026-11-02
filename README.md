@@ -65,6 +65,8 @@ Các bảng lấy trung vị trong từng seed, sau đó lấy trung vị giữa
 
 Metadata gốc nằm trong [environment.json](benchmark/results/full/environment.json). Chuỗi `platform` của Python ghi `Windows-10-10.0.26200-SP0`; build 26200 tương ứng Windows 11 25H2. Đây là tên nhận diện từ công cụ thu thập, không phải tên thương mại của hệ điều hành.
 
+Bản C++ đã dùng cho phép đo được lưu nguyên byte dưới dạng gzip trong [source/](benchmark/results/full/source/), đối chiếu bằng SHA-256 trong metadata. Mã nguồn hiện tại đã được định dạng lại; audit kiểm tra bản nguồn lưu trữ và cho biết riêng mã hiện tại có trùng byte với bản đã đo hay không. Số liệu công bố được giữ nguyên.
+
 | Dữ liệu công bố | Vị trí |
 |---|---|
 | Kết quả tổng hợp và IQR | [summary.csv](benchmark/results/full/summary/summary.csv) |
@@ -165,7 +167,19 @@ cmake --build benchmark/build --config Release
 ctest --test-dir benchmark/build -C Release --output-on-failure
 ```
 
-Với CMake đa cấu hình, executable có thể nằm trong thư mục `Release`; các script Python mặc định dùng vị trí do `build.py` tạo. GitHub Actions chạy build, kiểm thử, đối chiếu NetworkX và pipeline `quick` trên Linux.
+Với CMake đa cấu hình, executable có thể nằm trong thư mục `Release`; các script Python mặc định dùng vị trí do `build.py` tạo. GitHub Actions kiểm tra định dạng, build, kiểm thử, đối chiếu NetworkX, pipeline `quick` và dữ liệu công bố trên Linux.
+
+## Định dạng mã nguồn
+
+C++ dùng clang-format với thụt lề bốn dấu cách, giới hạn 100 ký tự mỗi dòng và dấu ngoặc cho các khối điều khiển. Python dùng Black với giới hạn 88 ký tự mỗi dòng. Cấu hình được lưu trong `.clang-format` và `pyproject.toml`.
+
+```powershell
+.venv/Scripts/python.exe -m pip install -r benchmark/requirements-dev.txt
+.venv/Scripts/python.exe -m black benchmark/scripts
+.venv/Scripts/clang-format.exe -i benchmark/include/topo.hpp benchmark/src/runner.cpp benchmark/tests/test_topo.cpp
+```
+
+Trên Linux/macOS, dùng `.venv/bin/python` và `.venv/bin/clang-format`. Để chỉ kiểm tra, dùng `black --check benchmark/scripts` và `clang-format --dry-run --Werror` với ba file C++ trên.
 
 ## Giới hạn và tài liệu tham khảo
 
